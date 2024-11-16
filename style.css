@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+
+
+html {
+    font-family: "Newsreader", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    
+}
+
+body {
+    background-image: url("bg.png");
+    background-size: cover;
+    background-position: none;
+    margin: 0;
+    padding: 0;
+}
+
+.headerdiv {
+    position: relative;
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    justify-content: center;
+    border-bottom: 2px solid black;
+    font-size: x-large;
+}
+
+.newscontainer {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.4fr 0.3fr;
+    position: relative;
+    width: 100%;
+    height: 1fr;
+}
+
+.newstext {
+    font-size:large;
+}
+
+.hahatext {
+    font-size: small;
+}
+
+.beotw {
+    display: grid;
+    padding: 2em;
+    grid-row: 1 / span 3;
+    grid-column: 1;
+    align-items: start;
+    border-right: 1px solid black;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 0.25fr 4fr;
+    column-gap: 10px;
+    row-gap: 5px;
+}
+
+.beotwheader {
+    text-align: center;
+    
+    grid-row: 1;
+    grid-column: 1 / span 2;
+}
+
+.beotwimg {
+    height: 400px;
+    width: 200px;
+    grid-column: 1;
+    grid-row: 2;
+    justify-content: start;
+}
+.beotwtext {
+    text-align: left;
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.game {
+    padding: 2em;
+    grid-column: 2;
+    justify-content: start;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+.rumours {
+    padding: 2em;
+    grid-column: 2;
+    justify-content: start;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+.other {
+    padding: 2em;
+    grid-column: 2;
+    justify-content: start;
+    border-left: 1px solid black;
+    border-bottom: 2px solid black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 8px
+}
+
+::-webkit-scrollbar-track {
+    background: transparent
+}
+
+::-webkit-scrollbar-thumb {
+    background: #555555
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555555
+}
